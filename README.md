@@ -25,5 +25,5 @@ dotnet publish -c Release -r linux-x64 /p:PublishSingleFile=true /p:PublishTrimm
 ### OSX
 
 ```
-dotnet publish -c Release -r osx.12.6-x64 /p:PublishSingleFile=true /p:PublishTrimmed=true
+dotnet publish -c Release -r osx-arm64 /p:PublishSingleFile=true /p:PublishTrimmed=true
 ```
