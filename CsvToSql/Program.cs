@@ -73,7 +73,7 @@ internal class Program
         {
             if (!skipHeader || lineCount > 0)
             {
-                var columns = line.Split(delimiter);
+                var columns = Csv.ParseLine(line, delimiter[0]);
                 var result = new StringBuilder(sqlTemplate);
 
                 for (var colIndex = 0; colIndex < columns.Length; colIndex++)
@@ -114,7 +114,7 @@ internal class Program
         {
             if (!skipHeader || lineCount > 0)
             {
-                var columns = line.Split(delimiter);
+                var columns = Csv.ParseLine(line, delimiter[0]);
                 values.Add(columns[extractFromColIndex].TrimStart('"').TrimEnd('"'));
             }
 

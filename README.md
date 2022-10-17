@@ -6,6 +6,10 @@ Helpful tool when you i.e want to create a bunch of SQL from lines in a CSV file
 
 - .Net 6
 
+## Known bugs
+
+- When parsing lines with `","` it will not return the correct number of columns and data.
+
 ## Build
 
 Run the following to build it as self-contained (without need to install .Net on the target machine)
