@@ -27,7 +27,7 @@ internal class Program
                 Console.WriteLine(
                     "  3: <optional> whether or not the header row should be skipped (true|false). Defaults to 'false'.");
                 Console.WriteLine("  4: <optional> the delimiter to be used when parsing the CSV. Defaults to ','.");
-                Console.WriteLine(@"Example: './csv2sql example.csv 2'");
+                Console.WriteLine(@"Example: './csv2sql --aggregate example.csv 2'");
                 
                 return;
             }
