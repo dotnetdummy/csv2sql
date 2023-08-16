@@ -1,5 +1,3 @@
-using System;
-using CsvToSql;
 using Xunit;
 using Xunit.Abstractions;
 

@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace CsvToSql;
+namespace Csv2Sql;
 
 public static class Csv
 {

@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvToSql", "CsvToSql\CsvToSql.csproj", "{42AD9D53-B88C-46ED-A02F-782414BA5D1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csv2Sql", "Csv2Sql\Csv2Sql.csproj", "{42AD9D53-B88C-46ED-A02F-782414BA5D1F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csv2Sql.Tests", "Csv2Sql.Tests\Csv2Sql.Tests.csproj", "{B56CA5CB-1886-4977-871B-520D8CA2FCCD}"
 EndProject
