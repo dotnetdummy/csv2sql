@@ -76,7 +76,7 @@ internal class Program
                 var columns = Csv.ParseLine(line, delimiter[0]);
                 var result = new StringBuilder(sqlTemplate);
 
-                for (var colIndex = 0; colIndex < columns.Length; colIndex++)
+                for (var colIndex = columns.Length - 1; colIndex >= 0; colIndex--)
                 {
                     result.Replace($"@{colIndex}", columns[colIndex].TrimStart('"').TrimEnd('"'));
                 }
