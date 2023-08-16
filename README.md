@@ -17,17 +17,17 @@ Run the following to build it as self-contained (without need to install .Net on
 ### Windows
 
 ```
-dotnet publish -c Release -r win-x64 /p:PublishSingleFile=true /p:PublishTrimmed=true
+dotnet publish -c Release -r win-x64 /p:PublishSingleFile=true /p:PublishTrimmed=true --self-contained
 ```
 
 ### Linux
 
 ```
-dotnet publish -c Release -r linux-x64 /p:PublishSingleFile=true /p:PublishTrimmed=true
+dotnet publish -c Release -r linux-x64 /p:PublishSingleFile=true /p:PublishTrimmed=true --self-contained
 ```
 
 ### OSX
 
 ```
-dotnet publish -c Release -r osx-arm64 /p:PublishSingleFile=true /p:PublishTrimmed=true
+dotnet publish -c Release -r osx-arm64 /p:PublishSingleFile=true /p:PublishTrimmed=true --self-contained
 ```
